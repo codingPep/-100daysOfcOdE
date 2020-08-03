@@ -13,3 +13,6 @@
 #Day6=SpringBoot Course-crud-RestApi
 
 #Day7=TicTacToe with React
+
+
+#Day8= Django starts
