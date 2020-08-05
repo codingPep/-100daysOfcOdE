@@ -18,3 +18,6 @@
 #Day8= Django starts
 
 #day9= backend python + python neccessary sets
+
+
+#day10-python basic sort and search algos
