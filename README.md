@@ -27,3 +27,5 @@
 #day12=django order model
 
 #day13=Django braintree payment system
+
+#day14=Django project setup commands
