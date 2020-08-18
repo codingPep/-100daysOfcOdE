@@ -44,3 +44,14 @@ exports.createMemory = (req, res) => {
     });
   });
 };
+
+exports.getAllMemory = (req, res) => {
+  Memory.find().exec((err, memory) => {
+    if (err) {
+      return res.status(400).json({
+        error: "No memory found",
+      });
+    }
+    return res.json(memory);
+  });
+};
