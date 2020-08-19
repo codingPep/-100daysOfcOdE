@@ -47,3 +47,5 @@
 #Day22=Nodejs docs
 
 #Day23=Mongo image save into DB
+
+#Day24=Mongo image and items update in DB using id
