@@ -53,3 +53,5 @@
 #Day25=Mongo Authentication with passport and bcrypt
 
 #Day26=one to many relationship with authentication mongodb
+
+#Day27=jest testing samples
