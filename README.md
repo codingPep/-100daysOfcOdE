@@ -57,3 +57,5 @@
 #Day27=jest testing samples
 
 #Day28=sorting algo
+
+#Day29=React class components basics
