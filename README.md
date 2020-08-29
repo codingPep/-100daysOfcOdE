@@ -67,3 +67,5 @@
 #Day32=React Transaction app
 
 #Day33=React simple Pagination
+
+#Day34=React redux simple app
