@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @todo.name %>
+</p>
+
+
+<%= form_for @task do |f| %>
+
+  <p><% f.text_field :title %></p>
+
+  <% f.check_box :done %>
+
+  <% f.number_field :todo_id, :value => @todo.id %>
+
+  <%= f.submit "Add Task" %>
+<% end %>
+
+
+
+<%= link_to 'Edit', edit_todo_path(@todo) %> |
+<%= link_to 'Back', todos_path %>
